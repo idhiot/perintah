@@ -1,0 +1,43 @@
+* Perintah Termux
+  1.mengizinkan termux mengakses memori internal:
+    - termux-setup-storage
+  2.menghapus tema welcome termux:
+    - touch .hushlogin
+  3.melihat isi directory:
+    - ls
+  4.masuk directory folder lain:
+    - cd
+  5.mengakses memori internal:
+    - cd /sdcard
+  6.mengganti tanda dollar:
+    - nano ../usr/etc/bash.bashrc
+  7.membuat file:
+   - touch namafile
+  8.membuat folder:
+    - mkdir namafolder
+  9.merubah file manjadi hijau:
+    - chmod +x namafile
+  10.membuat file berformat zip:
+    - zip namafile baru filelama
+  11.menghapus file/folder:
+     - rm -rf namafile/folder
+  12.mengkopi file ke folder lain:
+     - cp -rf namafile/namafolder
+  13.memindahkan file/folder kefolder lain:
+     - mv -rf namafile/namafolder
+  14.melihat packages yang terintall:
+     - pkg install namapackages
+     - pkg list-installed
+     - pkg uninstall namapackages
+     - pkg reinstall namapackages
+     - pkg list-all
+     
+     - keluar dari termux:
+       - exit/logout
+     - membersihkan layar termux:
+       - clear
+
+* mendownload file di github:
+  - pkg install git
+  - git clone https://github.com/idhiot/namarepository
+  
