@@ -11,7 +11,7 @@
     - cd /sdcard
   6.mengganti tanda dollar:
     - cd ../usr/etc
-    - nano bash .bashrc
+    - nano bash.bashrc
     - nano ../usr/etc/bash.bashrc
   7.membuat file:
    - touch namafile
