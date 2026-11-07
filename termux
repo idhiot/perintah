@@ -10,6 +10,8 @@
   5.mengakses memori internal:
     - cd /sdcard
   6.mengganti tanda dollar:
+    - cd ../usr/etc
+    - nano bash .bashrc
     - nano ../usr/etc/bash.bashrc
   7.membuat file:
    - touch namafile
@@ -31,13 +33,13 @@
      - pkg uninstall namapackages
      - pkg reinstall namapackages
      - pkg list-all
-     
-     - keluar dari termux:
-       - exit/logout
-     - membersihkan layar termux:
+  15.Keluar dari termux:
+     - exit/logout
+  16.membersihkan layar termux:
        - clear
 
 * mendownload file di github:
+  - pkg update && pkg upgrade
   - pkg install git
   - git clone https://github.com/idhiot/namarepository
   
