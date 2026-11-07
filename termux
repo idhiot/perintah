@@ -24,9 +24,9 @@
   11.menghapus file/folder:
      - rm -rf namafile/folder
   12.mengkopi file ke folder lain:
-     - cp -rf namafile/namafolder
+     - cp -f namafile /sdcard/namafolder baru
   13.memindahkan file/folder kefolder lain:
-     - mv -rf namafile/namafolder
+     - mv -f namafile /sdcard/namafolder baru
   14.melihat packages yang terintall:
      - pkg install namapackages
      - pkg list-installed
@@ -40,6 +40,8 @@
 
 * mendownload file di github:
   - pkg update && pkg upgrade
+  - pkg install python
+  - pkg install nano
   - pkg install git
   - git clone https://github.com/idhiot/namarepository
   
