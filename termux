@@ -36,8 +36,9 @@
   15.Keluar dari termux:
      - exit/logout
   16.membersihkan layar termux:
-       - clear
-
+     - clear
+  17.memasuki directory home
+     cd ..  
 * mendownload file di github:
   - pkg update && pkg upgrade
   - pkg install python
