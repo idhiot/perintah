@@ -38,7 +38,10 @@
   16.membersihkan layar termux:
      - clear
   17.memasuki directory home
-     cd ..  
+     cd ..
+  18.Merubah nama file/folder :
+     - mv namafile/folder namafolderbaru
+
 * mendownload file di github:
   - pkg update && pkg upgrade
   - pkg install python
